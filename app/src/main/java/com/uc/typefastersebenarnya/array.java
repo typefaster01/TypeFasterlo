@@ -3,14 +3,15 @@ package com.uc.typefastersebenarnya;
 import java.util.ArrayList;
 
 public class array {
-    String[] soal = new String[20];
-    int index = 0;
-    long start = 0;
-    long end = 0;
-    int word1 = 0;
-    int counter = 0;
-    String jawaban = "";
-    public void masukSoal() {
+    public static String hasil;
+    public static String[] soal = new String[20];
+    public static int index = 0;
+    public static long start = 0;
+    public static long end = 0;
+    public static int word1 = 0;
+    public static int counter = 0;
+    public static String jawaban = "";
+    public static void masukSoal() {
         soal[0] = "Life is like a piano, white and black. If God play it, all will be a beautiful melody.";
         soal[1] = "Nothing is impossible. Anything can happen as long as we believe.";
         soal[2] = "Your biggest weakness is when you give up and your greatest power is when you try one more time.";
@@ -34,7 +35,7 @@ public class array {
 
     }
 
-    public String randomSoal() {
+    public static String randomSoal() {
         index = (int) (Math.random() * 19);
         String soalFinal = soal[index];
 
