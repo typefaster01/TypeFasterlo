@@ -5,12 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LeaderBoard {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class LeaderBoard extends AppCompatActivity {
     Button playButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.setting);
+        setContentView(R.layout.leaderboard);
         playButton = findViewById(R.id.Menu);
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -10,7 +10,7 @@
         android:id="@+id/gameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="104dp"
         android:width="350dp"
         android:height="300dp"
         android:background="#FFA500"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/soal"
         android:layout_width="299dp"
         android:layout_height="154dp"
         android:text="TextView"
@@ -40,7 +40,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726" />
+        app:layout_constraintVertical_bias="0.872" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="409dp"
@@ -54,8 +54,8 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="352dp"
         android:layout_height="42dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="184dp"
         android:background="@color/cardview_light_background"
         android:backgroundTint="#FFFFFF"
         android:hint="Type here...."
